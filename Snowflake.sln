@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{D4575152-1625-4135-B032-40A96B4AE94E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2757D56B-D7AE-44C2-9D60-1A6E77F0DC04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "samples\WebApplication\WebApplication.csproj", "{B1CAFAA0-B674-40C3-8F0D-731482E59C76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Essensoft.AspNetCore.Snowflake", "src\Essensoft.AspNetCore.Snowflake\Essensoft.AspNetCore.Snowflake.csproj", "{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76}.Debug|x64.Build.0 = Debug|Any CPU
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76}.Debug|x86.Build.0 = Debug|Any CPU
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76}.Release|x64.ActiveCfg = Release|Any CPU
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76}.Release|x64.Build.0 = Release|Any CPU
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76}.Release|x86.ActiveCfg = Release|Any CPU
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76}.Release|x86.Build.0 = Release|Any CPU
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}.Debug|x64.Build.0 = Debug|Any CPU
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}.Debug|x86.Build.0 = Debug|Any CPU
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}.Release|x64.ActiveCfg = Release|Any CPU
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}.Release|x64.Build.0 = Release|Any CPU
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}.Release|x86.ActiveCfg = Release|Any CPU
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1CAFAA0-B674-40C3-8F0D-731482E59C76} = {D4575152-1625-4135-B032-40A96B4AE94E}
+		{BF929C85-CB6C-491A-BBC7-458BB7C5EF2E} = {2757D56B-D7AE-44C2-9D60-1A6E77F0DC04}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1686D08-31D2-4E3B-BC7E-2EEEC9E8A41A}
+	EndGlobalSection
+EndGlobal
